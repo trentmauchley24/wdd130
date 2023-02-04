@@ -139,13 +139,14 @@ footer.social img{
 }
 main section img{
     box-sizing: border-box;
-    border: 10px black;
 }
 .button-box{
     border: 10px black;
     padding-bottom:200px;
 }
-
+.card-img {
+    border: 10px solid #d9c2a3;
+}
 
 
 
