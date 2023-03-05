@@ -296,7 +296,6 @@ header {
 .canyon-card{
     grid-column: 1/11;
     grid-row: 1/8;
-    margin-top: -25px;
     width: 100%;
     height:100%;
 }
