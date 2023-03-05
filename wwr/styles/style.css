@@ -255,6 +255,59 @@ header {
 
 
 /* Page 2 (Rates and Dates) style*/
+#rates_and_dates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:300px 300px 300px 300px 300px 300px 350px ;
+}
+#rates_and_dates_list{
+    grid-column: 4/8;
+    grid-row: 1/2;
+    z-index: 1;
+    }
+#rates{
+    z-index: 1;
+    background-color: darkseagreen;
+    border-color: black;
+}
+.titles{
+    background-color: #6f7364;
+}
+#benefits{
+    grid-column: 5/7;
+    z-index: 1;
+}
+#dates{
+    grid-column: 1/11;
+    background-color: #00667a;
+    grid-row: 7/8;
+    z-index: 1;
+}
+.canyon-card{
+    grid-column: 1/11;
+    grid-row: 1/8;
+    margin-top: -25px;
+    width: 100%;
+    height:100%;
+}
+.benefits{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
