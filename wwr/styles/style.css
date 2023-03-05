@@ -265,7 +265,17 @@ header {
     grid-row: 1/2;
     z-index: 1;
     }
-#rates{
+#rates-seasonal{
+    z-index: 1;
+    background-color: darkseagreen;
+    border-color: black;
+}
+#rates-weekly{
+    z-index: 1;
+    background-color: darkseagreen;
+    border-color: black;
+}
+#rates-daily{
     z-index: 1;
     background-color: darkseagreen;
     border-color: black;
