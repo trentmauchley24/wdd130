@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    background-color:#9cb380 ;
+    font-family: 'IM Fell French Canon SC', 'Rock Salt';
+    font-size: 22px;
+    margin:0;
+    padding:0;
+}
+#hero-img{
+    width: 100%;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color: #4E8E45;
+}
+nav a{
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: brown;
+    color:black ;
+}
+.logo{
+    width: 175px;
+}
+#main_info{
+    display:grid;
+    grid-template-columns: 400px 400px 400px 400px 400px 300px 350px;
+    grid-template-rows:400px 400px 400px 400px 400px 300px 350px ;
+}
+#main_home{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:400px 400px 400px 400px 400px 300px 350px ;
+}
+#main_diets{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:400px 400px 400px 400px 400px 300px 350px ;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.home-beetle{
+    width: 400px;
+    padding: 50px;
+}
+.funfacts-beetle{
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    background-color: #4E8E45;
+}
+.home-butterfly{
+    width: 700px;
+    padding: 50px;
+    grid-column: 1/4;
+    grid-row:3;
+}
+.funfacts-butterfly{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row:3;
+    background-color: #4E8E45;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #c59849;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cicada{
+    width: 700px;
+    padding: 50px;
+}
+.cicada_facts{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    background-color: #4E8E45;
+}
+.mosquito{
+    width: 700px;
+    padding: 50px;
+    grid-column: 1/4;
+    grid-row-start:3;
+}
+.mosquito_facts{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start:3;
+    background-color: #4E8E45;
+}
+.monarch{
+    width: 700px;
+    padding: 50px;
+    grid-column: 1/4;
+    grid-row-start:4;
+}
+.monarch_facts{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start:4;
+    background-color: #4E8E45;
+}
+.collection{
+    width:100%;
+    grid-row-start:6;
+    grid-row-end:8;
+    grid-column-start: 1;
+    grid-column-end: 10;
+}
+
+
+
+
