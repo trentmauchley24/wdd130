@@ -69,8 +69,8 @@ footer p a:hover{
     grid-row:3;
 }
 .funfacts-butterfly{
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 8;
     grid-row:3;
     background-color: #4E8E45;
 }
@@ -84,12 +84,14 @@ footer{
 }
 .cicada{
     width: 700px;
+    grid-row-start: 1;
     padding: 50px;
 }
 .cicada_facts{
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 8;
     grid-row-start: 1;
+    margin-top: 125px;
     background-color: #4E8E45;
 }
 .mosquito{
@@ -99,29 +101,35 @@ footer{
     grid-row-start:3;
 }
 .mosquito_facts{
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 8;
     grid-row-start:3;
     background-color: #4E8E45;
+    margin-top: 125px;
 }
 .monarch{
     width: 700px;
+    height:400px;
     padding: 50px;
     grid-column: 1/4;
-    grid-row-start:4;
+    grid-row-start:5;
+    padding: 50px;
 }
 .monarch_facts{
-    grid-column-start: 4;
-    grid-column-end: 10;
-    grid-row-start:4;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start:5;
     background-color: #4E8E45;
+    margin-top: 125px;
 }
 .collection{
     width:100%;
-    grid-row-start:6;
-    grid-row-end:8;
+    height: 500px;
+    grid-row-start:7;
+    grid-row-end:9;
     grid-column-start: 1;
     grid-column-end: 10;
+    margin-left: 100px;
 }
 
 
