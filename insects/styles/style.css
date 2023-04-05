@@ -34,7 +34,7 @@ nav a:hover{
 }
 #main_info{
     display:grid;
-    grid-template-columns: 400px 400px 400px 400px 400px 300px 350px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:400px 400px 400px 400px 400px 300px 350px ;
 }
 #main_home{
@@ -131,6 +131,60 @@ footer{
     grid-column-end: 10;
     margin-left: 100px;
 }
+
+.home-beetle{
+    width: 700px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.funfacts-beetle{
+    grid-column: 2/6;
+    grid-row-start: 1;
+    grid-row-end:3;
+    margin-top: 125px;
+    background-color: #4E8E45;
+    align-content: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.home-butterfly{
+    width: 750px;
+    height: 610px;
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start:5;
+    
+}
+.funfacts-butterfly{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:5;
+    grid-row-end: 7;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #4E8E45;
+}
+.beetle-map{
+    width: 1200px ;
+    grid-column-start:1;
+    grid-column-end: 10;
+    grid-row-start:3;
+    grid-row-end:5; 
+    margin-top: 100px;   
+    margin-left:50px;
+}
+#hero-msg{
+    margin-left: 500px;
+}
+.home-title{
+    margin-left: 50px;
+}
+
+
 
 
 
