@@ -47,7 +47,11 @@ nav a:hover{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:400px 400px 400px 400px 400px 300px 350px ;
 }
-
+#main_ecosystem{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:400px 400px 400px 400px 400px 300px 350px ;
+}
 footer p a:hover{
     text-decoration: underline;
 }
@@ -165,7 +169,7 @@ footer{
     margin-top: 50px;
     margin-left: 50px;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     background-color: #4E8E45;
 }
 .beetle-map{
@@ -175,7 +179,7 @@ footer{
     grid-row-start:3;
     grid-row-end:5; 
     margin-top: 100px;   
-    margin-left:50px;
+    margin-left:200px;
 }
 #hero-msg{
     margin-left: 500px;
@@ -183,6 +187,70 @@ footer{
 .home-title{
     margin-left: 50px;
 }
+.migrate-butterflies{
+    width: 800px ;
+    height:400px;
+    grid-column-start:1;
+    grid-column-end: 10;
+    grid-row-start:7;
+    grid-row-end:8; 
+    margin-top:50px;   
+    margin-left:400px;
+}
+.hunting-spider{
+    width: 700px;
+    grid-row-start: 1;
+    padding-top: 200px;
+}
+.wolf-spider{
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end:3;
+    margin-top: 125px;
+    background-color: #4E8E45;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.ass-bug{
+    width: 700px;
+    padding-top:200px;
+    grid-column: 1/4;
+    grid-row-start:3;
+}
+.ass-bug-facts{
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start:3;
+    grid-row-end:5;
+    background-color: #4E8E45;
+    margin-top: 125px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.ghost-mantis{
+    width: 700px;
+    height:500px;
+    padding-top: 150px;
+    grid-column: 1/4;
+    grid-row-start:5;
+
+}
+.ghost-mantis-facts{
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start:5;
+    grid-row-end: 7;
+    background-color: #4E8E45;
+    margin-top: 125px; 
+    text-align: center;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+
 
 
 
